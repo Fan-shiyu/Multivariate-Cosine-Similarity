@@ -40,12 +40,8 @@ d1_PCs <- get_loadings(df1, n_loadings=3, scree_plot=TRUE)
 d2_PCs <- get_loadings(df2, n_loadings=3, scree_plot=TRUE)
 ```
 
-
-    
-![output_18_0](https://user-images.githubusercontent.com/57004009/215372926-e023ba7b-d060-49f8-b363-6c5105936985.png)
-
-![output_18_1](https://user-images.githubusercontent.com/57004009/215372978-cc5398d7-fffc-4787-8302-bdf7e3423a42.png)
-
+<img src="https://user-images.githubusercontent.com/57004009/215372926-e023ba7b-d060-49f8-b363-6c5105936985.png"  width="400" height="400">
+<img src="https://user-images.githubusercontent.com/57004009/215372978-cc5398d7-fffc-4787-8302-bdf7e3423a42.png"  width="400" height="400">   
 
 
 ### Projection
@@ -141,8 +137,7 @@ Venn Diagram can be plotted to show data similarity.
 venn_plot(proj3, fill=c("Red","Yellow"), label=TRUE, title=TRUE, anno=TRUE)
 ```
 
-![output_28_0](https://user-images.githubusercontent.com/57004009/215373584-c80c28c9-e0fa-4609-833e-2876e278dbf4.png)
-
+<img src="https://user-images.githubusercontent.com/57004009/215373584-c80c28c9-e0fa-4609-833e-2876e278dbf4.png"  width="400" height="400">  
 
     
 
@@ -165,8 +160,7 @@ proj_plot(proj1, arrow.col=c('#67a9cf','#ef8a62'), lwd=3.5, cex=1.2,
           label=TRUE, anno=TRUE, title='Projection in 1D')
 ```
 
-![output_32_0](https://user-images.githubusercontent.com/57004009/215373610-23e97789-86da-4e0c-ba55-6f28fc11fcb7.png)
-
+<img src="https://user-images.githubusercontent.com/57004009/215373610-23e97789-86da-4e0c-ba55-6f28fc11fcb7.png"  width="400" height="400">  
 
 The projection for the first two PCs.
 
@@ -184,8 +178,7 @@ proj_plot(proj2, arrow.col='#e41a1c98', pol.col='#e41a1c20',
           label=TRUE, anno=TRUE, title='Projection in 2D')
 ```
 
-![output_35_0](https://user-images.githubusercontent.com/57004009/215373632-1cd2792f-6b03-4cb6-93ec-a94d7972e61a.png)
-
+<img src="https://user-images.githubusercontent.com/57004009/215373632-1cd2792f-6b03-4cb6-93ec-a94d7972e61a.png"  width="400" height="400">  
 
 The projection for the first three PCs.
 
@@ -195,8 +188,7 @@ proj_plot(proj3, edge.col='#6731f610', arrow.col='#6731f650',
           label=TRUE, anno=TRUE, title='Projection in 3D')
 ```
 
-    
-![output_37_0](https://user-images.githubusercontent.com/57004009/215373660-10b0c06e-b8b0-4d01-89f3-9d7f92297a84.png)
+<img src="https://user-images.githubusercontent.com/57004009/215373660-10b0c06e-b8b0-4d01-89f3-9d7f92297a84.png"  width="400" height="400">      
 
 
 ### Some Plots for Data Exploration
@@ -211,8 +203,7 @@ pair_density_plot(proj3, cols=c(2,'blue'), lwd=3, xlim=c(-1,1), ylim=c(-1,2),
                   legend=TRUE, title='Density Plot')
 ```
 
-![output_41_0](https://user-images.githubusercontent.com/57004009/215373676-4ea519ba-2527-4533-a718-7218cf79cdd4.png)
-
+<img src="https://user-images.githubusercontent.com/57004009/215373676-4ea519ba-2527-4533-a718-7218cf79cdd4.png"  width="400" height="400">   
 
 
 
@@ -224,9 +215,7 @@ pair_correlation_plot(proj3,  legend=TRUE, point.col=1, line.col='blue',
                       title='Data Correlation')
 ```
 
-
-![output_43_0](https://user-images.githubusercontent.com/57004009/215373691-221cc027-3791-414d-8f27-fb9ab762ddcb.png)
-
+<img src="https://user-images.githubusercontent.com/57004009/215373691-221cc027-3791-414d-8f27-fb9ab762ddcb.png"  width="400" height="400">   
 
 
 Run `pair_boxplot()` to plot paired boxplot.
@@ -238,9 +227,7 @@ pair_boxplot(proj3, cols=c('#fbb4ae','#b3cde3'), title='Box Plot', legend=TRUE,
 ```
 
 
-    
-![output_45_0](https://user-images.githubusercontent.com/57004009/215373716-4b48a5b7-8d85-4930-9980-924ad4ac72a8.png)
-
+<img src="https://user-images.githubusercontent.com/57004009/215373716-4b48a5b7-8d85-4930-9980-924ad4ac72a8.png"  width="400" height="400">       
     
 
 
@@ -252,8 +239,7 @@ pair_vioplot(proj3, cols=3:4, title='Violin Plot', legend=TRUE,
              legend.text=c('data1','data2'))
 ```
 
-![output_47_0](https://user-images.githubusercontent.com/57004009/215373732-c19dfc93-fb2a-4e92-a51f-6d663c505e33.png)
-
+<img src="https://user-images.githubusercontent.com/57004009/215373732-c19dfc93-fb2a-4e92-a51f-6d663c505e33.png"  width="400" height="400">    
     
 
     
