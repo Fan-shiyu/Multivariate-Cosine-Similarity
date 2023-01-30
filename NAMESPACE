@@ -1,0 +1,29 @@
+export("angles", "d1_PCs", "d2_PCs", "get_loadings",
+       "is.proj", "lengths", "n_loadings", "pair_boxplot",
+       "pair_correlation_plot", "pair_density_plot", "pair_vioplot",
+       "plot_1d", "plot_2d", "plot_3d", "proj", "proj_1d", "proj_2d",
+       "proj_3d", "proj_compute", "proj_coords", "proj_plot",
+       "scree_plot", "similarity", "simulation", "venn_plot")
+exportMethods(
+    "pair_boxplot",
+    "pair_correlation_plot",
+    "pair_density_plot",
+    "pair_vioplot",
+    "plot_1d",
+    "plot_2d",
+    "plot_3d",
+    "proj_plot",
+    "show",
+    "venn_plot" 
+)
+exportClasses(
+    "proj" 
+)
+importFrom("caret", "preProcess")
+importFrom("Morpho", "angle.calc")
+importFrom("REdaS", "rad2deg")
+importFrom("pracma", "nthroot")
+importFrom("VennDiagram", "draw.pairwise.venn")
+importFrom("plotrix", "draw.arc")
+importFrom("plot3D", "scatter3D", "text3D", "polygon3D", "arrows3D", "lines3D")
+importFrom("vioplot", "vioplot")

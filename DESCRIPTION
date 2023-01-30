@@ -1,0 +1,10 @@
+Package: adt
+Type: Package
+Title: Advanced Turkers
+Version: 1.0
+Date: 2023-01-29
+Author: Shiyu Fan
+Maintainer: Shiyu Fan <sfan289@aucklanduni.ac.nz>
+Description: Comparing the Similarity of Two Data Sets
+License: GPL2
+Imports: caret, Morpho, REdaS, pracma, VennDiagram, plotrix, plot3D, DescTools, vioplot
