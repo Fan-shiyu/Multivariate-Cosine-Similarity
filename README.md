@@ -1,4 +1,5 @@
-Renewing...
+For the theoretical background of the method, please refer to: https://researchspace.auckland.ac.nz/items/7c97b5ae-985c-43c7-9c65-705caa7ac853 
+
 ## Tutorial
 
 'adt' is one R package which can be used to compare the similarity of two data sets. The method is based on projection, and it starts with the results of PCA (Principal Component Analysis). 
