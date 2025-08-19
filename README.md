@@ -248,5 +248,5 @@ pair_vioplot(proj3, cols=3:4, title='Violin Plot', legend=TRUE,
     
 ### Summary  
 
-The **`adt`** package offers a complete workflow for comparing the similarity of two datasets using a PCA-based approach. It allows users to extract principal components, project them between datasets, and compute similarity scores through cosine-based metrics. In addition to numerical outputs such as similarity values, vector lengths, and angles, the package provides a variety of visualization tools including scree plots, Venn diagrams, projection plots (1D/2D/3D), and exploratory plots such as density, correlation, box, and violin plots, making it straightforward to assess dataset similarity both quantitatively and visually.  
+The **`adt`** package offers a complete workflow for comparing the similarity of two datasets using a projection-based approach. It allows users to extract principal components, project them between datasets, and compute similarity scores through cosine-based metrics. In addition to numerical outputs such as similarity values, vector lengths, and angles, the package provides a variety of visualization tools including scree plots, Venn diagrams, projection plots (1D/2D/3D), and exploratory plots such as density, correlation, box, and violin plots, making it straightforward to assess dataset similarity both quantitatively and visually.  
 
