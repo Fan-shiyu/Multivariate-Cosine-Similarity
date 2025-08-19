@@ -5,7 +5,7 @@ An interactive web application is available to run this method: [Multivariate Co
 
 ## Tutorial
 
-'adt' is one R package which can be used to compare the similarity of two data sets. The method is based on projection, and it starts with the results of PCA (Principal Component Analysis). 
+This is one R package which can be used to compare the similarity of two data sets. The method is based on projection, and it starts with the results of PCA (Principal Component Analysis). 
 
 To install this package, please run:
 
