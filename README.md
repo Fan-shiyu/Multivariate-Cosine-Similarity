@@ -1,5 +1,7 @@
 # Multivariate Cosine Similarity: A Method for Comparing Dataset Similarities
-For the theoretical background of the method, please refer to: https://researchspace.auckland.ac.nz/items/7c97b5ae-985c-43c7-9c65-705caa7ac853 
+For the theoretical background of this method, please refer to: [Multivariate Cosine Similarity Research](https://researchspace.auckland.ac.nz/items/7c97b5ae-985c-43c7-9c65-705caa7ac853) 
+
+An interactive web application is available to run this method: [Multivariate Cosine Similarity App](https://5683wm-shiyu-fan.shinyapps.io/Multivariate_Cosine_Similarity/)  
 
 ## Tutorial
 
